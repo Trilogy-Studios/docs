@@ -95,15 +95,9 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@trilogymc.net"
+        "label": "Support via Discord",
+        "href": "https://discord.gg/ppxKAVMZ2f"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
   },
   "contextual": {
     "options": [
