@@ -16,7 +16,7 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
+              "requesting-access-to-server",
               "quickstart",
               "development"
             ]
