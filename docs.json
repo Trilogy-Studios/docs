@@ -95,12 +95,12 @@
         },
         {
           "anchor": "Network Status",
-          "href": "https://mintlify.com/community",
+          "href": "https://status.trilogymc.net",
           "icon": "wave-pulse"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://blog.trilogymc.net",
           "icon": "newspaper"
         }
       ]
@@ -115,7 +115,8 @@
       {
         "label": "Support via Discord",
         "href": "https://discord.gg/ppxKAVMZ2f",
-        "icon": "discord"
+        "icon": "discord",
+        "background": "#5865F2"
       }
       ],
     "primary": {
