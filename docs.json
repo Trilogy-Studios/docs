@@ -46,7 +46,27 @@
         ]
       },
       {
-        "tab": "Rules",
+        "tab": "Account Punishments",
+        "groups": [
+          {
+            "group": "General Rules",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Polices",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+            {
+        "tab": "Troubleshooting & FAQ",
         "groups": [
           {
             "group": "General Rules",
@@ -69,12 +89,12 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Feedback",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
+          "anchor": "Network Status",
           "href": "https://mintlify.com/community",
           "icon": "slack"
         },
@@ -99,7 +119,7 @@
       ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "",
       "href": "https://dashboard.mintlify.com"
     }
   },
