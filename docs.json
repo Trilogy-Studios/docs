@@ -91,12 +91,12 @@
         {
           "anchor": "Feedback",
           "href": "https://trilogymc.featurebase.app/",
-          "icon": "message-circle-heart"
+          "icon": "messages"
         },
         {
           "anchor": "Network Status",
           "href": "https://mintlify.com/community",
-          "icon": "square-activity"
+          "icon": "wave-pulse"
         },
         {
           "anchor": "Blog",
