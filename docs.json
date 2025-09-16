@@ -90,13 +90,13 @@
       "anchors": [
         {
           "anchor": "Feedback",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "href": "https://trilogymc.featurebase.app/",
+          "icon": "message-circle-heart"
         },
         {
           "anchor": "Network Status",
           "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "icon": "square-activity"
         },
         {
           "anchor": "Blog",
@@ -114,7 +114,8 @@
     "links": [
       {
         "label": "Support via Discord",
-        "href": "https://discord.gg/ppxKAVMZ2f"
+        "href": "https://discord.gg/ppxKAVMZ2f",
+        "icon": "discord"
       }
       ],
     "primary": {
