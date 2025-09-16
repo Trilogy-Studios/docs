@@ -115,8 +115,7 @@
       {
         "label": "Support via Discord",
         "href": "https://discord.gg/ppxKAVMZ2f",
-        "icon": "discord",
-        "background": "#5865F2"
+        "icon": "discord"
       }
       ],
     "primary": {
@@ -139,9 +138,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "tiktok": "https://www.tiktok.com/@trilogyminecraft",
+      "discord": "https://discord.com/invite/8tycpkN68X",
+      "youtube": "https://www.youtube.com/@Trilogyminecraftserver"
     }
   }
 }
