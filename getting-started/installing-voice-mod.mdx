@@ -1,0 +1,114 @@
+---
+title: "Installing Simple Voice Chat (Client-side)"
+description: "Description of your new file."
+---
+
+To use Simple Voice Chat (Proximity Voice Chat) within our server, you will need to install the plugin as a client-side modification. To do this, please follow the guide step by step. Once completed, you will be ready to go!
+
+<Info>
+  In this guide, we will install the Fabric version of the Simple Voice Chat plugin. If you're open to using Fabric, please continue reading. For other platforms, review their documentation.
+</Info>
+
+## **Setting up the Fabric Loader & API**
+
+Navigate to the Fabric Loader [<u>website </u>](https://fabricmc.net/)and download the latest version by clicking the big blue **Download **button.
+
+![Installingvoicemod1 Pn](/images/Installingvoicemod1.png)
+
+Once downloaded, double click the downloaded file and await for a menu to pop-up.
+
+It will then ask you to choose a Minecraft version. Choose whichever version you want. This will be important to note further in this guide.
+
+<Note>
+  Our server uses 1.21.4 by default, but does allow other version, maybe choose that or a version or two above.
+</Note>
+
+![Installingvoicemod2 Pn](/images/Installingvoicemod2.png)
+
+The installer will automatically locate your Minecraft launcher's location.
+
+Once that is set, leave everything else alone and check on the "Create profile" option before pressing "Install".
+
+![Installingvoicemod3 Pn](/images/Installingvoicemod3.png)
+
+![Installingvoicemod4 Pn](/images/Installingvoicemod4.png)
+
+Exit out of the installer program and load up your Minecraft launcher. You should now see a new profile added to your launcher, Fabric Loader with the version number beside it. If you see that, you are good to go!
+
+![Installingvoicemod5 Pn](/images/Installingvoicemod5.png)
+
+Next up, in the top left, click on "Installations" and then hover to the right of the Fabric Loader profile. You'll notice a folder icon, click on that, and it will take you to your installations folder.
+
+![Installingvoicemod6 Pn](/images/Installingvoicemod6.png)
+
+![Installingvoicemod7 Pn](/images/Installingvoicemod7.png)
+
+In that installations folder, you'll also see a `mod` folder. That is where that Simple Voice Chat plugin will go, but before you can do that you need to install the Fabric API.
+
+![Installingvoicemod8 Pn](/images/Installingvoicemod8.png)
+
+Go to [<u>Modrinth </u>](https://modrinth.com/mod/fabric-api)and download the Fabric API plugin for the version you are using in your newly created Fabric Loader profile.
+
+![Installingvoicemod9 Pn](/images/Installingvoicemod9.png)
+
+![Installingvoicemod10 Pn](/images/Installingvoicemod10.png)
+
+To download it from Modrinth, click on the green **Download **button, select the game version that matches with your recently installed Fabric Loader, and await for it to download.
+
+Once it is downloaded, copy and paste it into your mods folder.
+
+![Installingvoicemod11 Pn](/images/Installingvoicemod11.png)
+
+## **Install Simple Voice Chat**
+
+After, go and grab the Simple Voice Chat plugin from Modrinth. Click the green **Download **button, choose the Minecraft version you chose when installing the Fabric Loader, and choose Fabric within the platform. Then hit the **Download **button again and wait for it to download.
+
+![Installingvoicemod12 Pn](/images/Installingvoicemod12.png)
+
+![Installingvoicemod13 Pn](/images/Installingvoicemod13.png)
+
+![Installingvoicemod14 Pn](/images/Installingvoicemod14.png)
+
+![Installingvoicemod15 Pn](/images/Installingvoicemod15.png)
+
+Then, add that newly downloaded plugin to the mods folder that we opened up before in installations.
+
+<Tip>
+  Stick to versions that are release or "R" based when downloading the plugin. Stay away from beta or "B" at this time please.
+</Tip>
+
+![Installingvoicemod16 Pn](/images/Installingvoicemod16.png)
+
+Load up your Minecraft launcher, select your Fabric Loader, and press Play. Check to see if any errors pop up, if not, then load into the server and follow further instructions below.
+
+![Installingvoicemod17 Pn](/images/Installingvoicemod17.png)
+
+## **Setting up Simple Voice Chat**
+
+Join the server and then press the `V` key. Once done, it will take you through a guide to get setup with Simple Voice Chat.
+
+You can also use the following commands or keybindings.
+
+| **Command**                      | **Description**                                                                                                                                    |
+| :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/voicechat help`                | Shows all possible commands.                                                                                                                       |
+| `/voicechat invite <PLAYERNAME>` | Invites the player to the group you are in.                                                                                                        |
+| `/voicechat join <GROUP-NAME>`   | Connects you to the group with that name.<br />​_This command only works if there's not more than one group with that exact name._                 |
+| `/voicechat join <GROUP-ID>`     | Connects you to the group with that ID.<br />​_This should not be used directly. This command is automatically executed when accepting an invite._ |
+| `/voiccechat leave`              | Disconnects you from your current group.                                                                                                           |
+
+### **Keybinds**
+
+| **Name**              | **Default Key**                                                               | **Description**                                                                                                    |
+| :-------------------- | :---------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| Voice Chat GUI        | `V`                                                                           | Opens the voice chat GUI.                                                                                          |
+| Voice Chat Settings   | _Not bound by default_                                                        | Opens the voice chat settings.                                                                                     |
+| Group Chats           | **1.21.6+**: _Not bound by default_<br />​<br />​**1.21.5 and earlier**:  `G` | Opens the group chat GUI.                                                                                          |
+| Push To Talk          | _Not bound by default_                                                        | The push to talk key (Only when using activation type `PTT`).<br />​_You get to set this in the onboarding guide._ |
+| Mute Microphone       | `M`                                                                           | The mute button (Only when using voice activation type `Voice`).                                                   |
+| Disable Voice Chat    | `N`                                                                           | This button disables the voice chat. Other people can't hear you and you can't hear them.                          |
+| Hide Voice Chat Icons | `H`                                                                           | This button hides all icons related to the voice chat.                                                             |
+| Toggle Recording      | _Not bound by default_                                                        | Toggles voice chat audio recording.                                                                                |
+| Whisper               | _Not bound by default_                                                        | Hold down to whisper.                                                                                              |
+
+For more information on how to use this plugin, please view the developer's documentation [<u>here</u>](https://modrepo.de/minecraft/voicechat/overview).
