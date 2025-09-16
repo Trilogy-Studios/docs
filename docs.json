@@ -26,16 +26,36 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Rules",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "General Rules",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Polices",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Rules",
+        "groups": [
+          {
+            "group": "General Rules",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Polices",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
