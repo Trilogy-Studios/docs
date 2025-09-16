@@ -17,7 +17,7 @@
             "group": "Getting started",
             "pages": [
               "getting-started/requesting-access-to-server",
-              "quickstart",
+              "getting-started/joining-the-server",
               "development"
             ]
           },
