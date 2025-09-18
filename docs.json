@@ -7,7 +7,7 @@
     "light": "#47A036",
     "dark": "#47A036"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/trilogy-favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -115,8 +115,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/trilogy-favicon.png",
+    "dark": "/logo/trilogy-favicon.png"
   },
   "navbar": {
     "links": [
