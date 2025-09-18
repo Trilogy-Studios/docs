@@ -31,11 +31,16 @@
           {
             "group": "General Rules",
             "pages": [
-              "api-reference/introduction"
+              "rules-polices/community-rules",
+              "rules-polices/server-rules",
+              "rules-polices/discord-rules",
+              "rules-polices/survival-world-rules",
+              "rules-polices/creative-world-rules"
             ]
           },
           {
             "group": "Polices",
+            "hidden": true,
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
@@ -47,6 +52,7 @@
       },
       {
         "tab": "Account Punishments",
+        "hidden": true,
         "groups": [
           {
             "group": "General Rules",
@@ -56,6 +62,7 @@
           },
           {
             "group": "Polices",
+            "hidden": true,
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
@@ -69,13 +76,14 @@
         "tab": "Troubleshooting & FAQ",
         "groups": [
           {
-            "group": "General Rules",
+            "group": "Troubleshooting",
             "pages": [
-              "api-reference/introduction"
+              "troubleshooting-and-faqs/reporting-bugs-issues"
             ]
           },
           {
             "group": "Polices",
+            "hidden": true,
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
