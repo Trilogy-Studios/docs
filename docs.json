@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "almond",
   "name": "TrilogyMC's Help Center",
   "colors": {
     "primary": "#aa00aa",
