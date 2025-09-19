@@ -26,7 +26,7 @@
         ]
       },
       {
-        "tab": "Rules",
+        "tab": "Rules & Policies",
         "groups": [
           {
             "group": "General Rules",
@@ -39,7 +39,7 @@
             ]
           },
           {
-            "group": "Polices",
+            "group": "Policies",
             "hidden": true,
             "pages": [
               "api-reference/endpoint/get",
